@@ -1,4 +1,4 @@
-#Local LLM Chatbot using Streamlit and Ollama#
+Local LLM Chatbot using Streamlit and Ollama
 This is a simple chatbot application built with Python using Streamlit for the user interface and Ollama for running open-source large language models (LLMs) locally.
 
 This project was created as a mini-assignment to demonstrate the basic setup and use of LLMs in a local environment.
