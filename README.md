@@ -1,4 +1,4 @@
-Local LLM Chatbot using Streamlit and Ollama
+#Local LLM Chatbot using Streamlit and Ollama#
 This is a simple chatbot application built with Python using Streamlit for the user interface and Ollama for running open-source large language models (LLMs) locally.
 
 This project was created as a mini-assignment to demonstrate the basic setup and use of LLMs in a local environment.
@@ -18,7 +18,6 @@ You need to install the necessary Python libraries using pip. Open your terminal
 
 pip install streamlit llama-index-llms-ollama
 
-
 Step 2: Set up Ollama
 You must have the Ollama service running and the required models pulled to your local machine.
 
@@ -30,14 +29,12 @@ ollama pull llama3
 ollama pull gemma
 ollama pull mistral
 
-
 Note: If the ollama command is not recognized, you need to add the Ollama installation directory to your system's PATH. On Windows, this is typically C:\Users\<YourUsername>\.ollama.
 
 Step 3: Run the Application
 Once the models are downloaded, you can run the Streamlit application. Open your terminal in the same directory as app.py and run:
 
 streamlit run app.py
-
 
 This command will start a local server and open the chatbot application in your web browser.
 
